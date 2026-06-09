@@ -1,0 +1,65 @@
+.fc {
+  font-family: inherit;
+}
+
+.fc-toolbar {
+  margin-bottom: 1.5rem !important;
+}
+
+.fc-toolbar-title {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  color: #0f172a;
+}
+
+/* Boutons */
+.fc-button {
+  background: white !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #334155 !important;
+  border-radius: 12px !important;
+  padding: 0.6rem 1rem !important;
+  box-shadow: none !important;
+}
+
+.fc-button:hover {
+  background: #f8fafc !important;
+}
+
+.fc-button-active,
+.fc-button:focus {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  color: white !important;
+}
+
+/* Calendrier */
+.fc-scrollgrid {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th,
+.fc-theme-standard .fc-scrollgrid {
+  border-color: #f1f5f9 !important;
+}
+
+.fc-col-header-cell {
+  background: #f8fafc;
+  font-weight: 600;
+  color: #475569;
+}
+
+.fc-daygrid-day:hover {
+  background: #f8fafc;
+}
+
+/* Événements */
+.fc-event {
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 4px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}

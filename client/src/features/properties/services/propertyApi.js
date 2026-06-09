@@ -1,0 +1,25 @@
+import api from "../../../services/api";
+
+export const getProperties = async (page = 1, limit = 10) => {
+  const response = await api.get(`/properties?page=${page}&limit=${limit}`);
+
+  return response.data;
+};
+
+export const createProperty = async (data) => {
+  const response = await api.post("/properties", data);
+
+  return response.data;
+};
+
+export const updateProperty = async (id, data) => {
+  const response = await api.put(`/properties/${id}`, data);
+
+  return response.data;
+};
+
+export const deleteProperty = async (id) => {
+  const response = await api.delete(`/properties/${id}`);
+
+  return response.data;
+};
